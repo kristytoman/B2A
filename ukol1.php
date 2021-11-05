@@ -13,7 +13,6 @@ $userItems;
 $userIsAdmin;
 
 //Inicializace proměnných
-
 $userIdentifier = 1;
 $userFullName = "Václav Gazda";
 $userAge = 12;
