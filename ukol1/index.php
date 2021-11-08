@@ -15,7 +15,7 @@ $userIsAdmin;
 //Inicializace proměnných
 $userIdentifier = 1;
 $userFullName = "Václav Gazda";
-$userAge = 12;
+$userAge = 17;
 $userPoints = 5.4;
 $userTitles = ["Ing." , "Frajeros"];
 $userIsAdmin = true;
