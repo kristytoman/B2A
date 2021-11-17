@@ -45,7 +45,7 @@ switch ($number) {
         break;
 }
 
-echo 'boolean ' . ($boolean) ? 'existuje' : 'neexistuje';
+echo ($boolean) ? 'boolean existuje' : 'boolean neexistuje';
 
 //cykly
 echo '<ul>';
@@ -64,6 +64,20 @@ for ($i = 0; $i < count($arr); $i++) {
         echo '<br>';
     }
 }
+
+echo '<br>';
+
+$max = $arr[0];
+
+for ($i = 1; $i < count($arr); $i++) {
+    if ($max < $arr[$i]) {
+        $max = $arr[$i];
+        echo 'nové maximum je ' . $max;
+        echo '<br>';
+    }
+}
+
+echo '<br>';
 
 $temp = 0;
 
